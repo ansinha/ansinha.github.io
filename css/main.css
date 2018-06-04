@@ -291,3 +291,44 @@ input{
         page-break-after: avoid;
     }
 }
+
+header{
+	background: #333;
+    padding: 15px 35px;
+}
+
+header .c-header.component {
+    max-width: 1366px;
+    display: block;
+	height: 105px;
+}
+header nav ul {
+  padding: 0;
+  margin: 4px 0 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 0;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 0 18px;
+  border-left: 1px solid #fff;
+  margin-bottom: 12px;
+}
+header nav ul li span, header nav ul li a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration:none;
+}
+header nav ul li:first-child {
+  border: none;
+}
+header nav ul li:last-child span {
+  line-height: 11px;
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+header nav ul li:last-child span:last-child {
+  margin-left: 0;
+}
