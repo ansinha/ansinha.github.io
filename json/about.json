@@ -1,0 +1,38 @@
+{ 
+    "name": "Amar Nath Sinha",
+	"objective":"To work in a challenging environment with latest technology and to enhance my skills as a productive team player especially in the field of Web Development Software with conjunction of company's goals & objective.",
+	"employmentHistory": [
+		{
+			"from": "May 2015",
+			"to": "Till",
+			"nameofcompany": "Sapient Consulting Pvt. Ltd.",
+			"designation": "Senior Interactive Developer",
+			"Worklocation": "Gurgaon"
+		}
+	],
+	"educationalQualifications" : [
+		{
+			"from": "2007",
+			"to": "July-2009",
+			"qualification": "M.C.A",
+			"college": "Sikkim Manipal University",
+			"percentage": "55%"
+		}
+	],
+    "projects": [
+        {
+            "Project Name:": "Miral - (Yas Connect)",
+            "Duration" : "September/2017— Till ",
+            "Software": "Sitecore CMS",
+            "Web Tools": "HTML5 ,SASS, React, ES-6 JavaScript, Webpack.js",
+            "Other Tools": "Visual Studio Code ,GIT, JIRA Tracking  system",
+            "Responsibility": [
+                "Have developed Re-Usual Component for Editorial Grid to Re-utilize in deferent Web Pages.",
+				"Header Components and Cookies Component",
+				"Browser Compatibility (IE-11, Edge, Firefox, Chrome, Safari, All latest devices)",
+				"Code Review for UI, Testing/Reviewing functionality.",
+				"Supported/Developed Multilingual Language Website (Arabic and English)"
+            ]
+        }
+    ]
+}
