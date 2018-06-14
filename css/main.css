@@ -302,33 +302,55 @@ header .c-header.component {
     display: block;
 	height: 105px;
 }
-header nav ul {
+
+header nav ul{
+	text-align: right;
+}
+
+nav ul {
   padding: 0;
-  margin: 4px 0 0;
-  margin-bottom: 0;
-  text-align: center;
   font-size: 0;
 }
-header nav ul li {
-  display: inline-block;
-  padding: 0 18px;
-  border-left: 1px solid #fff;
-  margin-bottom: 12px;
-}
-header nav ul li span, header nav ul li a {
+
+nav ul li span, nav ul li a {
+  color: #000;
+  display: block;
   font-size: 18px;
-  color: #fff;
   text-decoration:none;
 }
-header nav ul li:first-child {
-  border: none;
-}
-header nav ul li:last-child span {
+
+nav ul li:last-child span {
   line-height: 11px;
   display: block;
   width: 100%;
   margin-bottom: 10px;
 }
-header nav ul li:last-child span:last-child {
+
+nav ul li:last-child span:last-child {
   margin-left: 0;
+}
+
+nav.horizontal-list ul li {
+  display: inline-block;
+  padding: 0 18px;
+  border-left: 1px solid #fff;
+}
+
+nav.horizontal-list ul li:first-child {
+  border: none;
+}
+
+nav.horizontal-list ul li span, nav.horizontal-list ul li a {
+  color: #fff;
+}
+.profile-info .profile__photo{
+	position: relative;
+}	
+.profile-info .profile-pic{
+	border-radius: 50%;
+	left: 50%;
+    position: absolute;
+    margin-left: -60px;
+    margin-top: -60px;
+    width: 120px;
 }
