@@ -379,3 +379,36 @@ nav.horizontal-list ul li span, nav.horizontal-list ul li a {
     margin-top: -120px;
     width: 120px;
 }
+
+
+.table {
+    font-size: 16px;
+    border-collapse: separate;
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.table .row {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.table .heading {
+    font-weight: bold;
+    text-align: -internal-center;
+	color: #fff;
+	border-radius: 0;
+    vertical-align: top;
+    border-bottom: 1px solid #e2e7ee;
+	background-color: #545e75;
+}
+
+.table .col, .table .heading {
+    padding: 4px 8px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+}
